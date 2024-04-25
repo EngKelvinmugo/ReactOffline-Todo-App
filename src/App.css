@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.todo-list-item {
+  display: flex;
+  border: 1px solid grey;
+  justify-content: space-between;
+  width: 10rem;
+  padding: 0 0.5rem;
+}
+
+.todos-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-icon {
+  cursor: pointer;
+}
